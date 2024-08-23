@@ -12,7 +12,6 @@ import walletRoute from './route/walletRoute.js';
 import paymentRoute from './route/paymentRoute.js';
 dotenv.config();
 const app = express();
-//mongodb+srv://prathamjha00786:Pratham1234@meradatabase.10fgbhc.mongodb.net/?retryWrites=true&w=majority&appName=meraDatabase
 app.use(express.json());
 app.use(cors());
 app.use(morgan('dev'));
